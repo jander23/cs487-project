@@ -43,16 +43,6 @@ width: 30%;
 height: 150px;  
 }
 
-.winlabel {
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	color: #f00;
-	font-size: 16pt;
-	padding: 5;
-	font-weight: bold;
-    text-align: left;
-    
-}
-
 
 .tablebackground {-webkit-border-radius: 20px;
 -webkit-border-radius: 14px;
@@ -99,28 +89,6 @@ vertical-align: middle;
 	border-spacing: 5px;
     table-layout:  fixed;
 }
-.axisLabel {
-	position: absolute;
-	text-align: center;
-	font-size: 14px;
-}
-
-.yaxisLabel {
-	top: 50%;
-	margin-left: -30px;
-    margin-top: 200px;
-	transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-webkit-transform:  rotate(-90deg);
-	transform-origin: 0 0;
-	-o-transform-origin: 0 0;
-	-ms-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	-webkit-transform-origin: 0 0;
-}
-
 
 img.align-left{float:left;margin:0 10px 5px 0;}
 img.align-right{float:right;margin:0 0 5px 10px;}
@@ -133,16 +101,6 @@ img.align-right{float:right;margin:0 0 5px 10px;}
 	letter-spacing: 0px;
 	text-decoration: none;
 	color: #332616;
-}
-
-p.pfont1 {
-/*	float: left;*/
-	margin: 0;
-	padding: 0 15px 0 5px;
-	color: #332616;
-	font: bold 18px/45px 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-    text-decoration: none;
-    text-align: left;
 }
 
 h4.Cali
@@ -175,25 +133,6 @@ h4.Cali
     text-align: left;
 }
 
-p.pfont2 {
-/*	float: left;*/
-	margin: 0;
-	padding: 0 15px 0 5px;
-	color: #332616;
-	font: bold 16px/45px 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-    text-decoration: none;
-    text-align: left;
-}
-
-.textarea5{
-	border: 1px solid #765942;
-	border-radius: 15px;
-
-	width: 80%;
-}
-
-
-
 .label-success{background-color:#24a3f2}/*colorcode*/
 .label
 {display: inline;
@@ -206,15 +145,6 @@ p.pfont2 {
  white-space:nowrap;
  vertical-align:baseline;
  border-radius:.25em}
-/*
-input {
-	font-size: 14px;
-}
-
-input[type=checkbox] {
-	margin: 7px;
-}
-    */
 
 
 
@@ -256,28 +186,6 @@ height: 90%;
 }
 
 
-.transbackgroundGMap {
--webkit-border-radius: 14px;
--moz-border-radius: 14px;
-border-radius: 14px;
-border: 1px solid #696969;
-background-color: #FFFFFF;
-padding: 10px;
-font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-font-size: 13pt;
-color: #000000;
-text-align: left;
-vertical-align: middle;
-width: 100%;
-height: 100%;
-}
-
-
-img.normal {
-    height: 20px;
-
-}
-
 
 iframe.dataplot {
   
@@ -293,14 +201,6 @@ iframe.dataplot {
 
 
 } 
-    
-#svgContainer { 
-	z-index: -10;
-    height: 500px;
-    width: 100%;
-	position:absolute;
-
-}
 
 #active{
     z-index: -9;
@@ -313,51 +213,6 @@ iframe.dataplot {
 	width: 80%;
 }
 
-#imagetogglepv{ /*PV*/
-  	width: 9em;
- 	height: 7em;
- 	background-color:transparent;
-    margin-top: 25%;
-    margin-left: 5%;
-    z-index: -5;
-
-}
- 
-#imagetoggleload{ /*Load*/
- 	width: 9em;
- 	height: 7em;
-	background-color:transparent;
-    margin-top: 25%;
-    margin-left: 58%;
-    z-index: -5;
-}
-
-#imagetogglegrid{ /*Grid*/
-   	width: 9em;
- 	height: 7em;
-	background-color: transparent;
-    margin-top: 45%;
-    z-index: -5;
-    
-}
-#imagetogglebattery{ /*Battery*/
- 	width: 9em;
- 	height: 7em;
-	background-color: transparent;
-    margin-top: 45%;
-    margin-left: 55%;
-    z-index: -5;
-}
-           
-
-#imagetogglecontrol{ /*Control - no longer blue because the box size needs to be greater than image size*/
-    z-index: 100; /*needs to be on top of everything*/
- 	width: 9em;
- 	height: 7em;
-	background-color:transparent;
-    margin-left: 40%; 
-}
-
 #parentTab{
     border-style: inset;
     border-color: rgba(105, 105, 105, 0.40);
@@ -366,28 +221,6 @@ iframe.dataplot {
     margin-right: 5%;
     z-index: -999;
         background-color: rgba(0, 0, 0, 0.05);/*colorcode*/
-}
-
-#logbox{
-    border-style: inset;
-    border-color: rgba(105, 105, 105, 0.40);
-    border-radius: 25px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 100px;
-    background-color: rgba(0, 0, 0, 0.05);/*colorcode*/
-    z-index: 0;/*needs to be zero or higher so that the img titles display on the div; negative value means thats the mouse events are handled by parentTab and thus image title isn't displayed on hover*/
-}
-
-#guagebox{
-    border-style: inset;
-    border-color: rgba(105, 105, 105, 0.40);
-    border-radius: 25px;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.05)/*colorcode*/
-    z-index: 0;/*needs to be zero or higher so that the img titles display on the div; negative value means thats the mouse events are handled by parentTab and thus image title isn't displayed on hover*/
 }
 
 
@@ -408,110 +241,6 @@ td {
 
 
 
-#dropdowntogglecontrol{
-   z-index: 500;  /*not even arbitrary values like 500 are working TODO */
-   background-color: white;
-}
-
-
-#dropdowntogglepv{
-   background-color: white;
-}
-
-#dropdowntogglegrid{
-   background-color: white;
-}
-
-#dropdowntogglebattery{
-   background-color: white;
-}
-
-
-#dropdowntoggleload{
-   background-color: white;
-}
-
-/*#wrapper .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
-}
-
-#wrapper:hover .text {
-visibility:visible;
-}*/ /*had to be removed cause it was making the text in the system layout slides invisible till hover*/
-
-
-.GenPath1 { /*for power generation*/
-  stroke-dasharray: 20;
-  stroke-dashoffset:500;
-  stroke-linecap: round;
-  animation: dash 10s infinite linear reverse;
-}
-
-.GenPath2 { /*for power generation*/
-  stroke-dasharray: 20;
-  stroke-dashoffset:500;
-  stroke-linecap: round;
-  animation: dash 10s infinite linear forwards;
-}
-
-.GenConPath { /*for power generation and consumption*/
-  stroke-dasharray: 20;
-  stroke-dashoffset:500;
-  stroke-linecap: round;
-  animation: altdash 10s infinite ease-in-out alternate;
-}
-
-.ConPath { /*for power consumption*/
-  stroke-dasharray: 20;
-  stroke-dashoffset:500;
-  stroke-linecap: round;
-  animation: dash 10s infinite forwards linear;
-}
-
-@keyframes altdash {
-    
-    0% {
-		stroke: green;
-	}
-    25% {
-        stroke: #5cb85c;
-        background-color: red;
-    }
-    50% {
-        stroke: #ffd800;
-    }
-    75% {
-        stroke: #ff6a00;
-    }
-    90% {
-        stroke: #f00;
-    }
-
-100% {
-        stroke: #f00;
-    }
-  from {
-    stroke-dashoffset: 500;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-
-@keyframes dash {
-    
-  from {
-    stroke-dashoffset: 500;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
 
 /*CSS for Tabs and background color*/
 
@@ -523,14 +252,6 @@ visibility:visible;
     border-color: #1d159b;
     border-style: groove;
 } 
-
-
-/*
-.navbar{ colorcode
-        color: White;
-    background-color: #0a6daa;
-}
-    */
 
 
 a.toggler {
