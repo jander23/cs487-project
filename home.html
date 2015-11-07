@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Find IIT</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-dropdown.js"></script>
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <!-- Custom CSS -->
+            <link href="css/half-slider.css" rel="stylesheet">
+            <link href="css/MyStyleSheet.css" rel="stylesheet">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="navmain">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand active" href="home.php"><span class="glyphicon glyphicon-home"></span> Find IIT</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav"  style="float: none!Important;">
+                   <li><a href="quickmenu.php"><i class="fa fa-bolt"></i> Quick Access Menu</a></li>
+                    <li ><a href="detailtable.php"><span class="fa fa-bar-chart"></span> All Resources</a></li>
+                    <li ><a href="directions.php"><i class="fa fa-sitemap"></i> Get to IIT</a></li>
+                    <li ><a href="settings.php"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                    <li class="dropdown" style="float: right; margin-right: 5%"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user fa-fw"></i>  Creators <span class="caret"></span></a>
+                  
+                      <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jacon Anderson</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jacob Freeman</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jeewon Ahn</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Prachi Chachondia</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-graduation-cap"></i> Contact The Team</a></li>
+                      </ul>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div><!--end of container div for navbar-->
+        <!--header information-->
+    <br><br>
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide" style="height:500px;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/main.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Main Building</p>
+                </div>
+            </div>
+            <div class="item ">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/mtcc.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>McCormick Tribune Campus Center</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/crown.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Crown Hall</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the fourth background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/ssv.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>SSV</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+        <br>
+    <!-- Page Content -->
+    <div class="container" id="parentTab" style="text-align: center; margin-left: 10%; margin-right: 10%; width: 80%; overflow-x: hidden">
+
+        <h1>Find IIT</h1>
+        <h3>One-stop for all campus resources</h3>
+        <hr>
+        <div class="col-sm-12" style="overflow-x: hidden">
+            <p style="text-align: justify;">This browser app is Team B's project for CS 487 - Software Engineering. The team members are: </p>
+            <ul style="text-align: left">
+                        <li> Jacon Anderson</li>
+                        <li> Jacob Freeman</li>
+                        <li> Jeewon Ahn</li>
+                        <li> Prachi Chachondia</li>
+            </ul>
+            <p style="text-align: justify;">
+                Add details of project here.
+            </p></div>
+
+    </div>
+    <!-- /.container -->
+
+            <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+    <div id="footer-wrapper">
+    <h5 align="center">
+    <a href="http://web.iit.edu/"><img src="images\iitlogo.jpg" alt="Illinois Institute of Technology"  height="72" align="absmiddle"/></a>  
+	</h5>
+    </div><!--end of footer-->
+
+    </body>
+
+</html>
