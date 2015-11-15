@@ -270,3 +270,25 @@ a.toggler.off {
     border-right-width: 2px;
     border-left-width: 15px;
 }
+
+/*CSS for mapping*/
+viewport: {
+    selector: '#Image-Maps-Com-process-map',
+    padding: 0
+    }
+
+.ui-tooltip {
+    padding: 10px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+}
+ 
+body .ui-tooltip {
+   border-width: 1px;
+   color: #FFFFFF;
+   background: #454545;
+   text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}

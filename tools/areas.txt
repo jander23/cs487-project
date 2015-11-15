@@ -1,0 +1,15 @@
+<area alt="McCormick Tribune Campus Center" title="McCormick Tribune Campus Center" href="building/mtcc.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="571,384,762,491" style="outline:none;" target="_self">
+<area alt="McCormick Student Village" title="McCormick Student Village" href="building/msv.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="551,534,730,677" style="outline:none;" target="_self">
+<area alt="Galvin Library" title="Galvin Library" href="building/galvin.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="341,137,455,200" style="outline:none;" target="_self">
+<area alt="Crown Hall" title="Crown Hall" href="building/crown.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="300,240,350,325" style="outline:none;" target="_self">
+<area alt="Siegel Hall" title="Siegel Hall" href="building/siegel.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="433,234,520,260" style="outline:none;" target="_self">
+<area alt="Wishnick Hall" title="Wishnick Hall" href="building/wishnick.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="558,234,645,264" style="outline:none;" target="_self">
+<area alt="Perlstein Hall" title="Perlstein Hall" href="building/perlstein.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="600,280,715,325" style="outline:none;" target="_self">
+<area alt="Alumni Hall" title="Alumni Hall" href="building/alumni.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="750,240,775,325" style="outline:none;" target="_self">
+<area alt="Rettaliata Engineering Center" title="Rettaliata Engineering Center" href="building/e1.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="845,280,960,330" style="outline:none;" target="_self">
+<area alt="Life Sciences" title="Life Sciences" href="building/life-science.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="990,240,1036,324" style="outline:none;" target="_self">
+<area alt="Stuart" title="Stuart" href="building/stuart.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="1106,244,1150,327" style="outline:none;" target="_self">
+<area alt="State Street Village" title="State Street Village" href="building/ssv.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="300,387,503,414" style="outline:none;" target="_self">
+<area alt="Greek Housing" title="Greek Housing" href="building/quad.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="287,550,433,677" style="outline:none;" target="_self">
+<area alt="Carman Hall" title="Carman Hall" href="building/carman.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="807,541,833,590" style="outline:none;" target="_self">
+<area alt="Gunsaulus" title="Gunsaulus" href="building/gunsaulus.html" data-toggle="tooltip" data-placement="bottom" shape="rect" coords="845,638,910,655" style="outline:none;" target="_self">
