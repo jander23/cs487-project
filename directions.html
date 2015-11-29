@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Directions</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-dropdown.js"></script>
+            <script src="js/main.js"></script>
+            <!--<script src="js/jquery-2.1.4.min.js"></script></script>-->
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <!-- Custom CSS -->
+            <link href="css/half-slider.css" rel="stylesheet">
+            <link href="css/MyStyleSheet.css" rel="stylesheet">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container" id="navmain">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand active" href="home.html"><span class="glyphicon glyphicon-home"></span> Find IIT</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav"  style="float: none!Important;">
+                   <li><a href="quickmenu.html"><i class="fa fa-bolt"></i> Quick Access Menu</a></li>
+                    <li ><a href="detailtable.html"><span class="fa fa-bar-chart"></span> All Resources</a></li>
+                    <li ><a href="directions.html"><i class="fa fa-sitemap"></i> Get to IIT</a></li>
+                    <li ><a href="settings.html"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                    <li class="dropdown" style="float: right; margin-right: 5%"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user fa-fw"></i>  Creators <span class="caret"></span></a>                 
+                      <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jacon Anderson</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jacob Freeman</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Jeewon Ahn</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Prachi Chachondia</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-graduation-cap"></i> Contact The Team</a></li>
+                      </ul>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div><!--end of container div for navbar--><!--header info-->
+        <br><br><br>
+        <!-- Page Content -->
+    <h1 style="text-align: center">Get to IIT</h1><br>
+        <hr>
+    <!--header information-->
+    <!-- Page Content -->
+    <div class="container" id="parentTab" style="text-align: center; margin-left: 10%; margin-right: 10%; width: 80%; overflow-x: hidden" scrolling="no"><br>
+
+        <form action="http://maps.google.com/maps" method="get" target="iframemap">
+            Enter your starting address:
+        <input type="text" name="saddr" />
+        <input type="hidden" name="daddr" value="Illinois Institute of Technology, 3300 South Federal Street, Chicago, IL 60616"/>
+        <input type="submit" value="get directions" />
+        </form>
+        <hr>
+        <br>
+    <iframe id="iframemap" src="googlemap.html" style="height: auto; border-style: groove; width: auto; min-height: 800px; min-width: 1000px; text-align: center; alignment-adjust: central"></iframe>
+  
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+    <div id="footer-wrapper">
+    <h5 align="center">
+    <a href="http://web.iit.edu/"><img src="images\iitlogo.jpg" alt="Illinois Institute of Technology"  height="72" align="absmiddle"/></a>  
+	</h5>
+    </div><!--end of footer-->
+
+
+
+    </body>
+
+</html>
