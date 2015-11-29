@@ -4,7 +4,9 @@
 
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
-    // This shit doesn't work at all yet. But someday it will
+    // This is the theoretical way to add items to area maps dynamically
+    // it requires node.js in its current from, though should probably
+    // be done via sql
     //
     var fs = require('fs');
     var array = fs.readFileSync('file.txt').toString().replace(/\r\n/g, '\n').split("\n");
